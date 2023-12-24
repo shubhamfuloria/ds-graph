@@ -7,7 +7,7 @@ A graph can be represented in different ways. Here are two ways that we can use 
   The graph is reseprented in the form of 2D array of size V x V where V is number of vertex and `Matrix[i][j]` contains 0 or 1, if it's 0 then there is no `edge` between i and j `vertex` else there is a vertex.
 
 
-![Alt text](files/image-1.png)
+![Alt text](./files/image-1.png)
 
 |   | A  | B  | C  | D  |
 |---|---|---|---|---|
@@ -22,7 +22,7 @@ The Graph is represented in the form of `map` from nodes to list of edges. `Map`
 
 (we can emit source in this Edge representation)
 
-![Alt text](files/image-2.png)
+![Alt text](./files/image-2.png)
 
 ```
 A -> [(A, B, 2), (A, C, 3)]
