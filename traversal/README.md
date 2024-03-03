@@ -27,6 +27,10 @@ bfs(graph):
     # poll element from queue
     node = queue.poll()
 
+    # if node is already visited, then continue
+    if(visited[node] == true):
+      continue
+
     # mark the node as visited
     visited[node] = true
 
