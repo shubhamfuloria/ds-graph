@@ -1,5 +1,12 @@
 import java.util.ArrayDeque;
 
+// Take away: while traversing graph / grid, we can get levels
+/**
+ * In normal / general BFS / level order traversal, we do not get levels
+ * directly.
+ * To get level simply calculate size of queue and remote that many items from
+ * the queue, once they are removed from the queue, we are on the next level :)
+ */
 class Solution {
   public static int shortestPathBinaryMatrix(int[][] grid) {
 
