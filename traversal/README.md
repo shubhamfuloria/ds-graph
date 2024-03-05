@@ -42,5 +42,16 @@ bfs(graph):
         queue.offer(nbr)
 ```
 
+## Graph theory on grids
+1. Convert grid to a adjacency list / matrix
+2. #### Direction Vectors
+    If we are allowed to move top, bottom, left and right
+
+3. To be continued
+
+
+## Breadth First Search Techniques
+
+1. While traversing graph / tree, we can get levels / steps by calculating current size of queue and running the loop that many times. See 02_shortest-path
 
 
