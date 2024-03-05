@@ -52,6 +52,6 @@ bfs(graph):
 
 ## Breadth First Search Techniques
 
-1. While traversing graph / tree, we can get levels / steps by calculating current size of queue and running the loop that many times. See 02_shortest-path
+1. While traversing graph / tree, we can get levels / steps by calculating current size of queue and running the loop that many times. See [02_shortest-path-in-binary-matrix](https://github.com/shubhamfuloria/ds-graph/blob/main/practice-problems/02_shortes-path-in-binary-matrix.java)
 
 
